@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+}
+
+.listitem ul{
+    display: flex;
+}
+
+.listitem ul li{
+    list-style: none;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+

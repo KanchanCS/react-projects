@@ -1,0 +1,55 @@
+.temperature {
+    height: 60vh;
+    max-width: 100%;
+    width:320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border:8px solid black;
+    border-radius: 30px;
+    align-items: center;
+}
+
+
+.actual-temp {
+    display: flex;
+    border-radius: 50%;
+    color: #ffffff;
+    /* background-color: #34495e; */
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    border: 3px #121212 solid;
+}
+.temp-btn {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    color: #ffffff;
+    border: 2px solid rgb(22, 21, 21);
+    font-size: 32px;
+    background-color: #f0932b;
+    margin-top: 50px;
+
+}
+
+button:hover {
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}

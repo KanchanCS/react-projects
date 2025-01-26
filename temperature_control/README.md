@@ -25,13 +25,20 @@ This is a React-based temperature control application that allows users to incre
       npm start
 
 ## File Structure
-  ```bash
-      
-    ├── TemperatureControl.js  # Main React component
-    ├── Temperature.css        # Component-specific styles
-    ├── img/
-    │   └── mobile.avif        # Image displayed in the UI
-    └── App.js                 # Parent component
+        ├── TemperatureControl.js  # Main React component
+        |── Temperature.css        # Component-specific styles
+        ├── img/
+        │   └── mobile.avif        # Image displayed in the UI
+        └── App.js                 # Parent component
 
 ## How it Works
+  - The TemperatureControl component uses React state to manage the temperature and background color.
+  - The temperature changes with + and − buttons.
+  - The background color dynamically updates based on the temperature value.
+
+## Technologies Used
+  - **React:** For building the UI components.
+  - **CSS:** For styling the temperature control interface.
+
+
 

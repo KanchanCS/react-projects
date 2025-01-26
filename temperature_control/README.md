@@ -25,7 +25,7 @@ This is a React-based temperature control application that allows users to incre
       npm start
 
 ## File Structure
-    ```bash
+  ```bash
       
     ├── TemperatureControl.js  # Main React component
     ├── Temperature.css        # Component-specific styles
@@ -33,4 +33,5 @@ This is a React-based temperature control application that allows users to incre
     │   └── mobile.avif        # Image displayed in the UI
     └── App.js                 # Parent component
 
+## How it Works
 

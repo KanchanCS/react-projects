@@ -10,7 +10,7 @@ This is a React-based temperature control application that allows users to incre
   - **Gray** for temperatures below 19°C.
 
 ## Screenshot
-![Temperature Control](https://via.placeholder.com/600x300.png?text=Temperature+Control+App)
+![Temperature Control](D:\React-js\temperature_control\src\img\photo_2025-01-26_21-47-20.jpg)
 
 ## How to Run the Project
 1. Clone the repository:

@@ -56,6 +56,18 @@ button:hover{
     background-color: #12334a;
     color: #fff;
 }
+.filter{
+    margin-top: 5px;
+    width: 150px;
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.filter:hover{
+    background-color: black;
+    color: #fff;
+}
 
 
 

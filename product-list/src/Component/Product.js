@@ -1,11 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Product.css'
 
 const ProductList = () => {
     const data = [{
         "id": 168,
         "title": "Charger SXT RWD",
-        "price": 32999.99,
+        "price": 32999,
         "quantity": 3,
         "total": 98999.97,
         "discountPercentage": 13.39,
@@ -104,11 +104,21 @@ const ProductList = () => {
         "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
     },
     ];
+    const [productItem, setproductItem] = useState(data);
+
+    const handleItem = () => {
+        const filterItem = productItem.filter((item) => {
+            return item.price < 1000;
+        });
+        setproductItem(filterItem)
+    };
 
     return (
+        <div>
+        <p className='filter' onClick={handleItem}>Filter by price</p>
         <div className='cart'>
             { 
-                data.map((product) => {
+                productItem.map((product) => {
                     return (
                         <div className='product' key={product.id}>
                         <div className='product-img'>
@@ -123,7 +133,8 @@ const ProductList = () => {
                     )
                 })
             }
-        </div>
+            </div>
+            </div>
     )
     
 }

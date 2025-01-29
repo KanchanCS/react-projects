@@ -19,3 +19,5 @@ const Hero = ({Title,Price,Tranding,Img}) => {
 }
 
 export default Hero
+
+

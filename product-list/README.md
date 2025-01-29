@@ -14,3 +14,18 @@ This is a simple React application that displays a list of products and allows u
 1. Clone the repository:
    ```bash
    git clone https://github.com/KanchanCS/react-projects/tree/main/product-list
+2. Navigate to the project directory:
+     ```bash
+     cd temperature-control
+3. Install dependencies:
+   ```bash
+     npm install
+4. Start the development server:
+    ```bash
+      npm start
+5. File Structure
+   ```bash
+   src/
+   ├── ProductList.js      # Main React component
+   ├── Product.css         # Styles for the product list
+   └── App.js              # Parent component

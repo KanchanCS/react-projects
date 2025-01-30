@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import './Temperature.css'
-// import mobile from './img/mobile.avif'
+
 const TemperatureControl = () => {
     const [temp, settemp] = useState(12);
     const [color, setColor] = useState("#34495e")
@@ -17,12 +17,15 @@ const TemperatureControl = () => {
             setColor("#34495e");
         }
     }
-
+    useEffect(() => {
+        console.log("hot");
+    },[color])
+    // component render
+    // component update
+        
+    
     return (
         <div className="temperature">
-            {/* <div className='temp-img'>
-             <img src={mobile} alt='img' style={{width:'100%'}}/> 
-            </div> */}
             <div className='temp-display'>
                 <div className='actual-temp' style={{backgroundColor:color}}>{temp }°C</div>
                 <div className='temp-btn'>

@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{ useState} from 'react'
 import './Product.css'
 
 const ProductList = () => {
@@ -112,7 +112,6 @@ const ProductList = () => {
         });
         setproductItem(filterItem)
     };
-
     return (
         <div>
         <p className='filter' onClick={handleItem}>Filter by price</p>

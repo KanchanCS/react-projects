@@ -14,7 +14,6 @@ const ApiProductList = () => {
 
     return (
         <div>
-
         <div className='cart'>
             { 
                 productItem.map((product) => {

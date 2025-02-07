@@ -1,5 +1,21 @@
-.form-container{
+* {
+    border: none;
+    outline: none;
+}
+
+.form-container {
     display: flex;
     justify-content: center;
-    background-color: brown;
+    border: 2px solid brown;
+    max-width: 500px;
+    margin: 50px 50px;
+    padding: 10px 10px;
+
+}
+
+.form-group {
+    margin: 10px 5px;
+    padding: 4px;
+    border: 1px solid rgb(219, 173, 181);
+    border-radius: 5px;
 }

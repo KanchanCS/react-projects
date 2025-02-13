@@ -1,4 +1,4 @@
-
+import Lezy from './component/LazyLoding';
 import Hooks2 from './component/Hooks2';
 import TernaryOperator from './component/TernaryOperator'
 import UseReferance from './component/UseRef';
@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>hello</h1>
+      <Lezy />
       <UseReferance/>
       <TernaryOperator/>
       <Hooks2/>
